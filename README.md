@@ -37,6 +37,9 @@ Clone the repository:
 
 ## 🚀 Usage
 
+- To classify a single image use classifier.ipynb
+
+For training:
 - Use data_splitter.ipynb to split the data into train/test/validation folders according to the .csv file in the dataset folder.
 - Add all of the items from validation to the test folder to get a 70/30 ratio (optional)
 - Make sure to have all the correct paths in the training notebook
