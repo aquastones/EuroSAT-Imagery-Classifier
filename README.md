@@ -2,6 +2,14 @@
 
 A deep learning model for **multi-class image classification** using PyTorch. This project classifies satellite images into **10 land cover categories**, including crops, forests, highways, water bodies, and more.
 
+## 📊 Model performance
+
+Accuracy -- **97.41%**
+
+![Accuracy](plots/accuracy.png)
+![Confusion Matrix](plots/confusion.png)
+![ROC Curve](plots/roc.png)
+
 ## 📂 [Dataset](https://www.kaggle.com/datasets/apollo2506/eurosat-dataset)
 
 The dataset consists of images categorized into the following 10 classes:
@@ -42,14 +50,6 @@ Clone the repository:
 ## 🏗️ Model Architecture
 
 The model is built using **PyTorch** with a **CNN-based architecture**, fine-tuned from a *DenseNet-169* model.
-
-## 📊 My Results
-
-Accuracy -- **97.41%**
-
-![Accuracy](plots/accuracy.png)
-![Confusion Matrix](plots/confusion.png)
-![ROC Curve](plots/roc.png)
 
 ## 🤝 Contributing
 
