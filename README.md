@@ -43,11 +43,6 @@ Clone the repository:
 - You're ready to train! After the training is finished plotting the results graphs is available in the respective notebooks
 - If you are using a different dataset make sure to calculate the mean and std values using normalization_calculator.ipynb
 
-  To classify a single image:
-  ```bash
-  python predict.py --image_path path/to/image.jpg --model_path models/best_model.pth
-  ```
-
 ## 🏗️ Model Architecture
 
 The model is built using **PyTorch** with a **CNN-based architecture**, fine-tuned from a *DenseNet-169* model.
