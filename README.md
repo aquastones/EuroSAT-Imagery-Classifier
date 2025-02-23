@@ -28,6 +28,7 @@ The dataset consists of images categorized into the following 10 classes:
 ## 🛠️ Installation (For personal use as framework for projects / transfer learning)
 
 Download the [Dataset](https://www.kaggle.com/datasets/apollo2506/eurosat-dataset)
+
 Clone the repository:
  ```bash
  git clone https://github.com/aquastones/EuroSAT-Imagery-Classifier.git
